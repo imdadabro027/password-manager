@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>passX</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Logo -->
+      <h1 id="logo">passX</h1>
+    </header>
+    <!-- Header Ends -->
+    <!-- Main -->
+    <main>
+      <!-- Title Starts -->
+      <div id="title">
+        <h2>Password Manager</h2>
+        <p>
+          We&apos;re thrilled to have you here. Your digital life contains a
+          myriod of passwords, and we know how challenging it can be to manage
+          them all. That&apos;s why we&apos;re here to make it easy for you.
+        </p>
+      </div>
+      <!-- Title Ends -->
+      <!-- Form Starts -->
+      <form id="form">
+        <input name="website" type="text" placeholder="Website" />
+        <input name="username" type="text" placeholder="Username or email" />
+        <input name="password" type="password" placeholder="Password" />
+        <button type="submit">Add</button>
+      </form>
+      <!-- Form Ends -->
+
+      <!-- Errors Starts -->
+      <p id="errors"></p>
+      <!-- Errors Ends -->
+
+      <!-- Table Starts -->
+      <div id="table">
+        <table aria-describedby="asd">
+          <thead>
+            <tr>
+              <th>Website</th>
+              <th>Username</th>
+              <th>Password</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <!-- Table Ends -->
+    </main>
+    <!-- Main Ends -->
+    <!-- Footer Starts -->
+    <footer>
+      <h3>Copyright &copy; | passX.com | Afzal Imdad | All Rights reserved</h3>
+    </footer>
+    <!-- Footer Ends -->
+
+    <!-- Scripts Start -->
+    <script src="app.js"></script>
+    <!-- Scripts Ends -->
+  </body>
+</html>

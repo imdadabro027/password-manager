@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Start */
+header {
+  padding: 12px 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+
+/* Header Ends */
+
+main {
+  padding: 4rem 10rem;
+}
+
+/* Title Starts */
+
+#title h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+}
+
+#title p {
+  font-size: 10px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+}
+
+/* Title Ends */
+
+/* Form Starts */
+
+#form {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+#form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+}
+
+#form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+}
+
+#form button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  color: white;
+  border: none;
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+  padding: 10px;
+}
+
+/* Form Ends */
+
+/* Table Starts */
+
+#table {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+#table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#table th,
+#table td {
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+}
+
+#table th {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: black;
+  border: none;
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+  padding: 10px;
+}
+
+#table th:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  color: black;
+  border: none;
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+  padding: 10px;
+}
+
+#table td {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: black;
+  border: none;
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+  padding: 10px;
+}
+
+#table td:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  color: black;
+  border: none;
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+  padding: 10px;
+}
+
+/* Table Ends */
+
+/* Footer Starts */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  column-gap: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Footer Ends */
+
+
+#errors {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  column-gap: 10px;
+  width: 100%;
+}
+
+
+
+/* Responsive Started */
+
+@media (max-width: 768px) {
+  header {
+    padding: 10px 20px;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  footer {
+    padding: 10px 20px;
+  }
+
+  main form {
+    flex-direction: column;
+    row-gap: 4px;
+  }
+
+  main form button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px 10px;
+  }
+
+  main {
+    padding: 4px;
+  }
+
+  footer {
+    padding: 10px 10px;
+  }
+
+  #title h2 {
+    font-size: 20px;
+  }
+
+  #title p {
+    font-size: 10px;
+  }
+
+  #table {
+    overflow-x: scroll;
+  }
+
+  main form {
+    flex-direction: column;
+    row-gap: 4px;
+    width: 100%;
+  }
+
+  main form button {
+    width: 100%;
+  }
+}
+
+/* Responsive Ends */
